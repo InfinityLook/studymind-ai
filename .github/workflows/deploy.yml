@@ -12,7 +12,7 @@ jobs:
         with:
           flutter-version: '3.x'
       - run: flutter pub get
-      - run: flutter build web --release --base-href /studymind-ai/
+    -  run: flutter build web --release --base-href /studymind-ai/
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
