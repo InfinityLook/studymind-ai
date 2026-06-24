@@ -1,8 +1,10 @@
 {
   "name": "StudyMind AI",
   "short_name": "StudyMind",
-  "start_url": ".",
+  "start_url": "/studymind-ai/",
   "display": "standalone",
   "background_color": "#5C6BC0",
-  "theme_color": "#5C6BC0"
+  "theme_color": "#5C6BC0",
+  "orientation": "portrait-primary",
+  "scope": "/studymind-ai/"
 }
