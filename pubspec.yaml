@@ -1,0 +1,19 @@
+name: studymind_ai
+description: "PWA studijní ai asistent"
+version: 1.0.0
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  sqflite_common_ffi_web: ^0.2.0
+  google_generative_ai: ^0.4.0
+  flutter_math_fork: ^0.6.0
+  http: ^1.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+    
